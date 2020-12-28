@@ -9,7 +9,7 @@ const square = (x) => {
 const event = {
     name: 'Birthday party',
 
-//    Arrow function will not work properly with `this.name`
+//    Arrow functions are bad for methods (function in class)
 //    guestList: () => {
 //        console.log(`This is a list of ${this.name}`);
 //    }
